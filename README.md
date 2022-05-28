@@ -2,11 +2,20 @@
 <img src="public/imgs/dashboardPC.PNG" alt="Dashboard PC" width="738">
 <img src="public/imgs/dashboardMobile.PNG" alt="Dashboard Mobile" height="380">
 
-React Cross Platform Challange es una de las dos modalidades en las que se podía concursar en el Hackathon de NUWE y CaixaBank Tech. El primer reto era un reto sobre Data Science, y el segundo es este que se presentará a conticuación.
+React Cross Platform Challange es una de las dos modalidades en las que se podía concursar en el Hackathon de NUWE y CaixaBank Tech. El primer reto era un reto sobre Data Science, y el segundo es este que se presentará a continuación.
+
+## Tabla de contenidos
+1. [Reto](#reto)
+2. [Solución escogida](#solucion-escogida)
+3. [Mejoras](#mejoras)
+4. [Librerias](#librerias)  
+5. [Instalación](#instalacion) 
+6. [Licencia](#licencia)
+
 
 En este Challange de la mano de NUWE y CaixaBank Tech, se ha pedido una solución a un reto que esta afrontando CaixaBank Tech. 
 
-## Reto
+## Reto(#reto)
 CaixaBank Tech esta intentando adaptar todo su ecosistema a **React**, para que todas las aplicaciones del ecosistema puedan ser mas homogeneas y escalables. 
 Lo que se pide es el crear una aplicación para Mobile y para Desktop con **React Native** y/o **React.JS** y hacerla de manera que el código sea lo mas reutilizable posible entre los diferentes dispositivos.
 
@@ -20,7 +29,7 @@ Con el diseño dado, se ha de implementar la solución que se crea idónea para 
     <img src="public/imgs/figmaDesign.PNG" alt="Figma Design" width="738">
 </p>
 
-## Solución escogida
+## Solución escogida(#solucion-escogida)
 ### Componentes
 Al no saber **React Native**, he decidido emplear **React.JS** para hacer las dos vistas de la aplicación, ya que **React Native** usa diferentes tags, entre otros, por lo que aprender React Native e integrarlo con **React.JS** en el transcurso del Hackathon no me ha parecido la idea mas adecuada.
 
@@ -46,19 +55,19 @@ El servicio es una especie de simil del servicio que tendría que recoger la inf
 ### Páginas
 Para este reto me ha parecido que con una sola página para mostrar el Dashboard sería suficiente, y despues lo que cambiaría sería el CSS para poder adaptarla correctamente tanto a mobile como a desktop. La página "Dashboard" recoge del servicio la información para mostrar en las vistas y les pasa la que corresponde a cada componente. En la implementación con React Native para mobile, se tendría que cambiar la página de "Dasboard" para que pueda ejecutar los dos codigos y así mantener la parte Desktop y Mobile.
 
-## Mejoras
+## Mejoras(#mejoras)
 Una mejora en la que he pensado seria modificar un poco el CSS para cuando este en modo de tablet para que la experiencia sea mas disfrutable aparte de la integracion con **React Native** para la parte mobile.
 
 
-## Librerias
+## Librerias(#librerias)
 
 - [react-icons](https://react-icons.github.io/react-icons) -> Para algunos iconos que se usan en la aplicación.
 - [react-boostrap](https://react-bootstrap.github.io/) -> Para el uso de los componentes de Bootstrap.
 - [chart-js](https://www.chartjs.org/) -> Para el uso de gráficos en JS.
 - [react-chartjs-2](https://react-chartjs-2.js.org/) -> Para el uso de los gráficos de chart-js en React.
 
-## Instalación
-
+## Instalación(#instalacion)
+Para poder hacer la instalación se debe tener instalado: **Node.JS** con **npm** y **Git** para poder descargar el proyecto
 
 ```
 git clone https://github.com/Balhus/react-hackathon-challange.git
@@ -67,7 +76,7 @@ npm install
 npm run dev
 
 ```
-## License
+## Licencia(#licencia)
 [MIT](https://opensource.org/licenses/MIT)
 
 
