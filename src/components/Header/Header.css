@@ -1,0 +1,136 @@
+/* logo */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 5.05em;
+}
+
+.mainLogo {
+    position: absolute;
+    left: 31px;
+    top: 35px;
+}
+
+.mainLogo-banks {
+    position: absolute;
+    width: 145px;
+    height: 24px;
+    left: 101px;
+    top: 36px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+    /* or 67% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+
+    color: #4A35C5;
+
+}
+
+/* Text below logo*/
+
+.headerSubtitleBox{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    padding: 0 25px;
+    color: #00093E;
+}
+
+.headerSubtitleBox h1{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40.3px;
+}
+
+.headerSubtitleBox p{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.51px;
+}
+
+.headerGear{
+    display: none;
+}
+.dashboardRow{
+    display: none;
+}
+
+@media(min-width: 414px){
+
+    .headerBox{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    /* Logo */
+    .mainLogo {
+        position: absolute;
+        left: 60px;
+        top: 33px;
+    }
+    
+    .mainLogo-banks {
+        position: absolute;
+        width: 145px;
+        height: 24px;
+        left: 130px;
+        top: 34px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 20px;
+        /* or 67% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.25px;
+    
+        color: #4A35C5;
+    
+    }
+
+    .headerGear{
+        font-size: 22px;
+        display: inherit;
+        margin-right: 25px;
+    }
+
+    .dashboardRow{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 56px;
+        background-color: #F5F5F5;
+        text-align: left;
+        line-height: 20px;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .dashboardRow p{
+        margin: 0;
+        padding-left: 33px;
+    }
+
+
+    .headerSubtitleBox{
+        display: none;
+    }
+}
+

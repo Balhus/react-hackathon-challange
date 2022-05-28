@@ -1,0 +1,24 @@
+.navBarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+}
+
+.navBarBox{
+    width: 88%;
+    height: 62px;
+    background-color: #2D14C4;
+    /* position: absolute; */
+    /* bottom: 2.5em; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 31px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+}
+
+.navbar-active{
+    color: rgb(255, 255, 255);
+}

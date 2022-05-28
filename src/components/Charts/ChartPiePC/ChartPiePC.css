@@ -1,0 +1,62 @@
+/* Containers */
+.ChartPiePCContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    height: 100%;
+}
+
+.ChartPiePCBox {
+    width: 86%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+    padding: 26px;
+}
+
+.ChartPiePCLinesContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ChartPiePCHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ChartPiePCLines {
+    margin: 10px 0;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Letters */
+.ChartPiePCTitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.68px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ChartPiePCPlusInfoBox {
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+.ChartPiePCPlusInfoBox p {
+    margin: 0;
+    margin-bottom: 8px;
+}

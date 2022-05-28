@@ -1,0 +1,98 @@
+/* Containers */
+.ChartLinePCContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.ChartLinePCBox {
+    width: 96%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+    padding: 35px;
+    /* margin-bottom: 30px; */
+}
+
+.ChartLinePCHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ChartLinePCCalendarBox {
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    height: 30px;
+    padding: 0 5px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.ChartLinePCCalendarBox span {
+    margin-right: 5px;
+}
+
+.ChartLinePCLines{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.ChartLinePCFooter {
+    margin-top: 35px;
+    margin-bottom: 5px
+
+}
+
+.ChartLinePCFooter p, h1{
+    margin: 0;
+
+}
+
+/* Letters */
+.ChartLinePCTitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.68px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.totalRevenueTitle {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(156, 156, 156, 1);
+
+}
+
+.totalRevenueValue {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.68px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.revenueChangeIndicator {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(74, 175, 5, 1);
+
+}
