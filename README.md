@@ -16,6 +16,8 @@ Para ello plantean diversas alternativas:
  - Compartir lo máximo posible separando algunos componentes importantes para mejorar la performance de cada una de las apps y emplear librerías que no podrían ser compatibles con la primera opción.
 
 Con el diseño dado, se ha de implementar la solución que se crea idónea para solucionar el reto.
+[Diseño Figma](https://www.figma.com/file/SxdHiAzQFC7oyBO0FeQGhh/Neolex?node-id=0%3A1)
+
 <p align="center">
     <img src="public/imgs/figmaDesign.PNG" alt="Figma Design" width="738">
 </p>
