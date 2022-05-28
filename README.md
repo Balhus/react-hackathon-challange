@@ -1,6 +1,6 @@
 # React Cross Platform Challange
 <img src="public/imgs/dashboardPC.PNG" alt="Dashboard PC" width="738">
-<img src="public/imgs/dashboardMobile.PNG" alt="Dashboard Mobile" heigth="350">
+<img src="public/imgs/dashboardMobile.PNG" alt="Dashboard Mobile" height="350">
 
 React Cross Platform Challange es una de las dos modalidades en las que se podía concursar en el Hackathon de NUWE y CaixaBank Tech. El primer reto era un reto sobre Data Science, y el segundo es este que se presentará a conticuación.
 
@@ -17,7 +17,7 @@ Para ello plantean diversas alternativas:
 
 Con el diseño dado, se ha de implementar la solución que se crea idónea para solucionar el reto.
 <p align="center">
-    <img src="public/imgs/figmaDesign.PNG" alt="Figma Design" width="200">
+    <img src="public/imgs/figmaDesign.PNG" alt="Figma Design" width="200" height="250">
 </p>
 
 ## SOLUCIÓN ESCOGIDA
@@ -46,16 +46,16 @@ El servicio es una especie de simil del servicio que tendría que recoger la inf
 ### PAGINAS
 Para este reto me ha parecido que con una sola página para mostrar el Dashboard sería suficiente, y despues lo que cambiaría sería el CSS para poder adaptarla correctamente tanto a mobile como a desktop. La página "Dashboard" recoge del servicio la información para mostrar en las vistas y les pasa la que corresponde a cada componente. En la implementación con React Native para mobile, se tendría que cambiar la página de "Dasboard" para que pueda ejecutar los dos codigos y así mantener la parte Desktop y Mobile.
 
-### MEJORAS
+## MEJORAS
 Una mejora en la que he pensado seria modificar un poco el CSS para cuando este en modo de tablet para que la experiencia sea mas disfrutable aparte de la integracion con **React Native** para la parte mobile.
 
 
 ## LIBRERIAS
 
-[react-icons]:      (https://react-icons.github.io/react-icons) -> Para algunos iconos que se usan en la aplicación.
-[react-boostrap]:   (https://react-bootstrap.github.io/) -> Para el uso de los componentes de Bootstrap.
-[chart-js]:         (https://www.chartjs.org/) -> Para el uso de gráficos en JS.
-[react-chartjs-2]:  (https://react-chartjs-2.js.org/) -> Para el uso de los gráficos de chart-js en React.
+- [react-icons]:      (https://react-icons.github.io/react-icons) -> Para algunos iconos que se usan en la aplicación.
+- [react-boostrap]:   (https://react-bootstrap.github.io/) -> Para el uso de los componentes de Bootstrap.
+- [chart-js]:         (https://www.chartjs.org/) -> Para el uso de gráficos en JS.
+- [react-chartjs-2]:  (https://react-chartjs-2.js.org/) -> Para el uso de los gráficos de chart-js en React.
 
 ## INSTALACIÓN
 ```
